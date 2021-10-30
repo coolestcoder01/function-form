@@ -6,7 +6,7 @@ my_list = ["tomato", "corn", "beets"]
 
 print_list(my_list)
 
-def generateCRC(code,div):
+def generateCRC():
 	code=list(map(int,input("Enter Code: ")))
 	div=list(map(int,input("Enter Divisor: ")))
 	rem=div.copy()
